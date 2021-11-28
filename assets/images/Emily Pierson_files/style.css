@@ -1,0 +1,343 @@
+:root {
+  --color1: #78A1BB;
+  --color2: #4C4B63;
+  --color3: #CE7DA5;
+  --color4: #EBF5EE;
+} 
+
+
+body {
+  display: block;
+  color: var(--color2);
+  background-color: var(--color4);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* header START */
+header {
+  padding: 20px 35px;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/night-mountains.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  display: flex;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+  width: 100%;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--color3);
+}
+
+header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  color: var(--color3);
+  margin: 0;
+}
+
+header nav {
+  padding: 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 12;
+  color: #ffffff;
+}
+
+header nav ul li a:hover {
+  background:#8F95D3;
+  color: #ffffff;
+  border-radius: 23px;
+  text-shadow: none;
+}
+
+.section-title {
+  /* font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  color:var(--color2); */
+  width: 500px;
+  height: 400px;
+  padding: 0;
+  margin: 0 .5px;;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  text-align: right;
+  border-right: solid;
+  border-right: var(--color2);
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+}
+/* header END */
+
+/* about me START */
+.section-about-me {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-info {
+  display: block; /* was flex bc parent was flex */
+  width: 640px;
+}
+
+.section-about-me h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  color:var(--color2);
+}
+
+.section-about-me .about-me-info {
+  width: 1050px;
+  height: 400px;
+  display: inline;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.section-about-me img {
+  margin-right: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 160px;
+  padding: 1em;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.about-me p {
+  width: 500px;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+}
+/* about me END */
+
+/* my work START */
+.section-work {
+  display: flex;
+  justify-content: center;
+}
+
+.section-work h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  color:var(--color2);
+}
+
+.section-work h3 {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 0 10px 5px;
+  margin: 0;
+  line-height: 1.3;
+  font-size: 18pt;
+  font-style: bold;
+  color:var(--color2);
+}
+
+.section-work img {
+  width: 100%;
+  height: 300px;
+  margin: 0;
+}
+
+.parent-for-all-projects {
+}
+
+.big-project {
+  display: flex;
+  margin: 10px;
+  background-color:var(--color1);
+  height: 400px;
+  width: 620px;
+  display: block; /*was flex bc parent was flex*/
+}
+
+.big-project a {
+  text-decoration: none;
+  color:var(--color2);
+}
+
+.big-project img {
+  height: 300px;
+  width: 620px;
+}
+.parent4projects {
+  display: flex;
+}
+
+.parent2projects{
+}
+
+.project {
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  background-color:var(--color1);
+}
+
+.project img {
+  height: 200px;
+  width: 300px;
+}
+
+.project p, .big-project p{
+  padding: 10px 0 10px 5px;
+  margin: 0;
+  line-height: 1.3;
+  color:var(--color2);
+}
+/* my work END*/
+
+
+/* resume START */
+.section-resume {
+  display: flex;
+  justify-content: center;
+}
+
+.section-resume h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  color:var(--color2);
+}
+
+
+.parent-for-resume {
+  background-color: var(--color4);
+  color: var(--color2);
+  padding: 10px 0;
+  margin: 5px 0px;
+  width: 640px;
+}
+
+.resume p {
+  margin: 4px 0;
+}
+
+.resume h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  color: var(--color2);
+  margin: 5px 10px;
+  display: inline;
+}
+
+.resume h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: var(--color2);
+  margin: 5px 0;
+}
+
+.details {
+  margin: 10px;
+  width: 200px;
+}
+
+.summary {
+  margin: 4px 0;
+  width: 500px;
+}
+
+.resume-item {
+  display: block;
+  flex-direction: column;
+  margin-bottom: 30px;
+  width: 500px;
+}
+
+.resume ul {
+  line-height: 1.5;
+}
+/*resume END*/
+
+
+/* contact me START */
+.contact-me {
+  width: 300px;
+  height: 300px;
+  margin: 0;
+  padding: 10px 0;
+  background-color: var(--color3);
+  border-radius: 500px;
+  position: relative;
+}
+
+.contact-me article {
+  position: absolute;
+  top: 23%;
+  left: 32%;
+  margin: -25px 0 0 -25px;
+}
+
+.contact-me p, .contact-me a {
+  line-height: 1;
+  font-style: normal;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #3D0B37;
+  background-color: #e7de8d;
+}
+
+.contact-me a:hover {
+  width: 200px;
+  background-color: #A85B61;
+  text-shadow: none;
+  text-align: center;
+  background-color: #e0dec7;
+}
+/*contact me END*/
+
+/* feeder START */
+footer {
+  background-color:var(--color2);
+  width: 100%;
+  padding: 40px 35px;
+  margin: 5px;
+}
+
+footer p {
+  margin: 0;
+  padding: 10px 0 10px 0;
+  color: #ffffff;
+  text-align: center;
+}
+/*footer END*/

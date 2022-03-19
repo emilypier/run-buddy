@@ -1,6 +1,7 @@
 # Run Buddy Inc.
+![MIT license](https://img.shields.io/badge/license-MIT-yellow)
 
-## Purpose
+## Description
 A website that offers fitness training services. 
 
 ## Built With
@@ -11,6 +12,7 @@ A website that offers fitness training services.
 https://emilypier.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by Emily
+Made with ❤️ by Emily Pierson
+Visit my [GitHub](https://github.com/emilypier).
 
 ### ©️2019 Run Buddy, Inc 
